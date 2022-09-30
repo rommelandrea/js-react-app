@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { Goodbye } from '@rommelandrea/js-lib-rollup'
 
 function App() {
+  let hello = (Goodbye()).sayGoodbye();
+  console.log(hello);
   return (
     <div className="App">
       <header className="App-header">
